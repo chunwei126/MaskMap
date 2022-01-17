@@ -1,0 +1,155 @@
+body{
+  font-family: Microsoft JhengHei;
+}
+.wrap{
+  max-width: 1140px;
+  margin: 0 auto;
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 185px 80px 42px 80px;
+}
+
+/*header-start*/
+header .content{
+  text-align: center;
+  margin-bottom: 60px;
+}
+h1{
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 60px;
+  letter-spacing: 10px;
+}
+.now{
+  margin-bottom: 60px;
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+.selects{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.selects li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28%;
+}
+label{
+  font-size: 18px;
+}
+select{
+  width: 60%;
+  padding: 1px 0 !important;
+  border: 2px solid rgb(209, 57, 30) !important;
+}
+.item{
+  display: flex;
+  align-items: center;
+}
+/*header-end*/
+
+/*main-start*/
+main .content{
+  text-align: center;
+}
+.line{
+  text-align: center;
+  color: rgb(209, 57, 30);
+  margin-bottom: 60px;
+}
+.list li{
+  text-align: center;
+}
+.list li h3{
+  font-size: 28px;
+  margin-bottom: 30px;
+  letter-spacing: 3px;
+}
+.list li p {
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.note{
+  margin-top: 20px;
+}
+.green{
+  color: #2AAD27;
+  text-shadow: 1px 1px 1px #31882A;
+}
+.gold{
+  color: #FFD326;
+  text-shadow: 1px 1px 1px #C1A32D;
+  margin-left: 40px
+}
+.red{
+  color: #CB2B3E;
+  text-shadow: 1px 1px 1px #982E40;
+  margin-left: 40px
+}
+/*main-end*/
+
+/*footer-start*/
+footer p{
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 150px;
+  font-size: 38px;
+  font-weight: bold;
+  color: rgb(209, 57, 30);
+  text-shadow:  2px 2px 3px black;
+  letter-spacing: 5px;
+  display: none;
+}
+
+/*map*/
+.map { 
+  width: 70%;
+  height: 500px;
+  margin: 50px auto 0 auto;
+  border: 2px solid black;
+}
+.marker-cluster-small {
+  background-color: rgba(181, 226, 140, 0.6);
+}
+.marker-cluster-small div {
+  background-color: rgba(110, 204, 57, 0.6);
+}
+.marker-cluster-medium {
+  background-color: rgba(241, 211, 87, 0.6);
+}
+.marker-cluster-medium div {
+  background-color: rgba(240, 194, 12, 0.6);
+}
+.marker-cluster-large {
+  background-color: rgba(253, 156, 115, 0.6);
+}
+.marker-cluster-large div {
+  background-color: rgba(241, 128, 23, 0.6);
+}
+.marker-cluster {
+  background-clip: padding-box;
+  border-radius: 20px;
+}
+.marker-cluster div {/*修改數字樣式*/
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  margin-top: 5px;
+  text-align: center;
+  border-radius: 15px;
+  font: 12px "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+.marker-cluster span {
+  line-height: 30px;
+}
+h4{
+  text-align: center;
+  font-size: 22px;
+}
+.mask_adult,
+.mask_child{
+  font-size: 18px !important;
+}
